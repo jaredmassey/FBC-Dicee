@@ -49,7 +49,7 @@ class _DiceButtonState extends State<DiceButton> {
         child: Image.asset('images/dice${this.dieValue}.png'),
         onPressed: () {
           setState(this.roll);
-          print('DV: ${this.dieValue}');
+          print('Val: ${this.dieValue}');
         },
       ),
     );
